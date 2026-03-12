@@ -1,4 +1,6 @@
 ---
+import profileImg from '../assets/profile2026.jpg';
+
 const name = "Tre Galloway";
 const location = "Louisiana";
 const title = "Professional Tinkerer";
@@ -88,10 +90,10 @@ const icons = {
         </div>
 
         <img
-          src="https://api.dicebear.com/7.x/avataaars/svg?seed=Tre"
+          src={profileImg.src}
           alt={`${name} profile`}
-          class="w-48 h-48 md:w-52 md:h-52 rounded-full order-1 md:order-2 flex-shrink-0"
-          style="border-color: var(--border-color); border-width: 4px;"
+          class="w-64 h-64 md:w-72 md:h-72 rounded-full order-1 md:order-2 flex-shrink-0"
+          style="border-color: #F39C12; border-width: 4px;"
         />
       </div>
     </main>
